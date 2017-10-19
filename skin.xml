@@ -335,16 +335,6 @@
 					<title xml:lang="ko">TAG 버튼 표시</title>
 				</options>
 			</var>
-			<var name="use_youtube" type="radio">
-				<title xml:lang="ko">유튜브 확장기능 사용</title>
-				<description xml:lang="ko">유튜브 확장기능을 사용합니다. 첫번째 확장변수가 "youtube_url"이 되어야 합니다.</description>
-				<options value="Y">
-					<title xml:lang="ko">유튜브 확장기능 사용</title>
-				</options>
-				<options value="">
-					<title xml:lang="ko">사용안함(기본)</title>
-				</options>
-			</var>
 		</group>
 		<group>
 		<title xml:lang="ko">목록 공통 설정</title>
@@ -1798,6 +1788,19 @@
 				</options>
 				<options value="3">
 					<title xml:lang="ko">웹 에디터</title>
+				</options>
+			</var>
+		</group>
+		<group>
+		<title xml:lang="ko">영상게시판 설정</title>
+			<var name="use_youtube" type="radio">
+				<title xml:lang="ko">유튜브 확장기능 사용</title>
+				<description xml:lang="ko">유튜브 확장기능을 사용합니다. 고급설정에서 섬네일을 사용하도록 해야하고, 첫번째 확장변수가 "youtube_url"이 되어야 합니다.</description>
+				<options value="Y">
+					<title xml:lang="ko">유튜브 확장기능 사용</title>
+				</options>
+				<options value="">
+					<title xml:lang="ko">사용안함(기본)</title>
 				</options>
 			</var>
 		</group>
